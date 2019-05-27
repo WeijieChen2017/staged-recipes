@@ -30,8 +30,9 @@ build:
   # If the installation is complex, or different between Unix and Windows, use separate bld.bat and build.sh files instead of this key.
   # By default, the package will be built for the Python versions supported by conda-forge and for all major OSs.
   # Add the line "skip: True  # [py<35]" (for example) to limit to Python 3.5 and newer, or "skip: True  # [not win]" to limit to Windows.
-  script: "conda install -c anaconda -y tensorflow-gpu keras-gpu nomkl seaborn ; conda install -c conda-forge -y pillow opencv nibabel qimage2ndarray nilearn pytables ; conda install -c simpleitk -y simpleitk ; pip install git+https://www.github.com/farizrahman4u/keras-contrib.git"
-
+  # script: "conda install -c anaconda -y tensorflow-gpu keras-gpu nomkl seaborn ; conda install -c conda-forge -y pillow opencv nibabel qimage2ndarray nilearn pytables ; conda install -c simpleitk -y simpleitk ; pip install git+https://www.github.com/farizrahman4u/keras-contrib.git"
+  script: "{{ PYTHON }} -m pip install . -vv"
+  
 requirements:
   build:
     # If your project compiles code (such as a C extension) then add the required compilers as separate entries here.
