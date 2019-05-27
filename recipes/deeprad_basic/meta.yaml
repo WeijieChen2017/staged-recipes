@@ -42,6 +42,10 @@ requirements:
     - pip
   run:
     - python
+    - tensorflow-gpu
+    - keras
+    - seaborn
+    - nibabel
 
 test:
   # Some packages might need a `test/commands` key to check CLI.
