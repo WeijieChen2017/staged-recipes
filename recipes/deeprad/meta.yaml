@@ -38,8 +38,6 @@ test:
     - seaborn
     - qimage2ndarray
     - nilearn
-    - pytables
-    - nomkl
 
 about:
   home: https://github.com/mimrtl/DeepRad/tree/master
