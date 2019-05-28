@@ -61,7 +61,7 @@ test:
     - keras
     - nibabel
     - seaborn
-    - simpleitk
+#     - simpleitk
     - keras_contrib
 
 about:
