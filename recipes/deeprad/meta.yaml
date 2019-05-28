@@ -24,7 +24,7 @@ requirements:
     - keras
     - seaborn
     - nibabel
-    - pyqt
+    - qt
     - qimage2ndarray
     - nilearn
     - pytables
@@ -36,7 +36,7 @@ test:
     - keras
     - nibabel
     - seaborn
-    - pyqt
+    - qt
     - qimage2ndarray
     - nilearn
     - pytables
