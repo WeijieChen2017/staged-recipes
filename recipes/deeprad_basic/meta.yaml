@@ -47,19 +47,19 @@ requirements:
     - keras
     - seaborn
     - nibabel
-    - pip
-      - git+https://www.github.com/farizrahman4u/keras-contrib.git
+    - simpleitk
 
-test:
-  # Some packages might need a `test/commands` key to check CLI.
-  # List all the packages/modules that `run_test.py` imports.
-  imports:
-#     - simplejson
-#     - simplejson.tests
-    - tensorflow
-    - keras
-    - nibabel
-    - seaborn
+# test:
+#   # Some packages might need a `test/commands` key to check CLI.
+#   # List all the packages/modules that `run_test.py` imports.
+#   imports:
+# #     - simplejson
+# #     - simplejson.tests
+#     - tensorflow
+#     - keras
+#     - nibabel
+#     - seaborn
+#     - simpleitk
 
 about:
   home: https://github.com/WeijieChen2017/deeprad_basic
