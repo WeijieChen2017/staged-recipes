@@ -17,5 +17,5 @@ print("installing keras-contrib from github")
 from pip._internal import main as pipmain
 pipmain(['install', 'git+https://github.com/keras-team/keras-contrib'])
 import keras_contrib
-print("successfully installed keras-contrib as "keras_contrib")
+print("successfully installed keras-contrib as keras_contrib")
       
