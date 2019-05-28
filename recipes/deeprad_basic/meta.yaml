@@ -11,9 +11,8 @@ package:
   version: {{ version }}
 
 source:
-  git_url: 
-    - https://github.com/WeijieChen2017/{{ name }}.git
-    - https://www.github.com/keras-team/keras-contrib.git
+  git_url: https://github.com/WeijieChen2017/{{ name }}.git
+#     - https://www.github.com/keras-team/keras-contrib.git
   # If getting the source from GitHub, remove the line above,
   # uncomment the line below, and modify as needed.
   # url: https://github.com/simplejson/{{ name }}/archive/{{ version }}.tar.gz
@@ -50,6 +49,7 @@ requirements:
     - seaborn
     - nibabel
     - simpleitk
+    - keras_contrib
 
 test:
   # Some packages might need a `test/commands` key to check CLI.
