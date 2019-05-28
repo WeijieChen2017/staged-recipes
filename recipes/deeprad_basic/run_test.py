@@ -1,4 +1,3 @@
-import pip
 import tensorflow
 import keras
 import nibabel
@@ -14,4 +13,5 @@ import seaborn
 # if __name__ == '__main__':
 #     install('argh')
 
-pip.main(['install git+https://www.github.com/keras-team/keras-contrib.git'])
+from pip._internal import main as pipmain
+pipmain(['install', 'git+https://github.com/keras-team/keras-contrib'])
