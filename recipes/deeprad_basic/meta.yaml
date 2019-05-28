@@ -47,6 +47,8 @@ requirements:
     - keras
     - seaborn
     - nibabel
+    - pip
+      - git+https://www.github.com/farizrahman4u/keras-contrib.git
 
 test:
   # Some packages might need a `test/commands` key to check CLI.
